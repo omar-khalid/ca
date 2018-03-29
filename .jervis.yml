@@ -1,0 +1,8 @@
+language: shell
+before_install: echo "Omar b4 install" 
+install: echo "OMAR install"
+before_script: echo "OMAR before script"
+script: echo "OMAR script"
+after_success: echo "OMAR after success"
+after_failure: echo "OMAR after failure"
+after_script: echo "OMAR after script"
